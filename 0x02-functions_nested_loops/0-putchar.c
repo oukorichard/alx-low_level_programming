@@ -1,7 +1,11 @@
-include <main.h>
+#include "main.h"
 
-int main()
+/**
+* _putchar prints character, q on the screen.
+*
+*The programm then returns 0 if success.
+*/
+  void _putchar(char q)
 {
-printf("-putchar\n");
-
+  return 0;
 }
