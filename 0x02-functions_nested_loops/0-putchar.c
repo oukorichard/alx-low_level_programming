@@ -1,4 +1,5 @@
 #include "main.h"
+#define _main_h_
 
 /**
 * _putchar prints character, q on the screen.
@@ -7,5 +8,5 @@
 */
   int _putchar(char q)
 {
-  return (write(1, &q, 1));
+  return putchar (q);
 }
