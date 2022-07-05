@@ -3,9 +3,9 @@
 /**
 * _putchar prints character, q on the screen.
 *
-*The programm then returns 0 if success.
+*The programm then returns success if success.
 */
   int _putchar(char q)
 {
-  return 0;
+  return (write(1, &q, 1));
 }
