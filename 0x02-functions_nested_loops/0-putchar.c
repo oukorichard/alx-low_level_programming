@@ -5,7 +5,7 @@
 *
 *The programm then returns 0 if success.
 */
-  int void _putchar(char q)
+  int _putchar(char q)
 {
   return 0;
 }
