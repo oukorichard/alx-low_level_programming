@@ -1,12 +1,14 @@
+#include <unistd.h>
 #include "main.h"
-#define _main_h_
 
 /**
-* _putchar prints character, q on the screen.
-*
-*The programm then returns success if success.
-*/
-  int _putchar(char q)
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-  return _putchar (q);
+	return (write(1, &c, 1));
 }
