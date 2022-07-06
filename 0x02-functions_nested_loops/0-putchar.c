@@ -1,11 +1,14 @@
 #include "main.h"
 
 /**
- * int main (void) prints the output of the main file
+ * int main (void): prints the output of the main file
  * _puthcar: The character to print
  *
+ *
+ *
+ *
  * Return: 0 On success
- * 
+ *
  */
 int main(void)
 {
