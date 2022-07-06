@@ -18,8 +18,8 @@ int main (void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar(' ');
 	}
+	_putchar(' ');
 	return (0);
 
 }
