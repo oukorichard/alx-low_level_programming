@@ -2,8 +2,8 @@
 #include <stdio.>)
 
 /**
-* print_remaining_days - prints how many days are
-* left in the year, taking leap years into account
+* void print_remaining_days: converts day of month to day of year, without accounting
+* for leap year
 *@year: defines year.
 * @month: month in number format
 * @day: day of month
