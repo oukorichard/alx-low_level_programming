@@ -25,3 +25,6 @@ int main(void)
 /**
 * while (i < 10), i does not increaments hence it is always 0 or less than 10
 */
+/*{*/
+	/*	putchar(i);*/
+	/*}*/
