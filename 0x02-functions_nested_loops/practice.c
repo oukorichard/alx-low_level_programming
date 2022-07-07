@@ -1,12 +1,20 @@
 #include <stdio.h>
+int rich(int i, int j);// function type decleration//
 
-int main(void) {
-
-  int a;
-
-  for(a = 0; a <= 122; a++)
+int main ()
 {
+  int a, b, c;
+
+  for(a = 97; a <= 123; a++)
+  {
   putchar (a);
-}
+  }
   return 0;
+
+  int rich(int i, int j);
+  {
+    if (b<=10)
+    
+    return putchar (b)
+  }
 }
