@@ -9,7 +9,7 @@
 
  int _isuper(int c)
  {
-   if(c >= 65 && c<=96)
+   if(c >= 'A' && c<='Z')
    {
    return (1);
    }
