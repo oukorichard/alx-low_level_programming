@@ -6,7 +6,7 @@
  * Return: 1 if is an uppercase character, 0 in other case.
  */
 
- int isuper(int c)
+ int _isuper(int c)
  {
    int b;
    if(c >= 65 && c<=96)
