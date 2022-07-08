@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 /**
  * print_numbers - prints numbers between 0 to 9.
