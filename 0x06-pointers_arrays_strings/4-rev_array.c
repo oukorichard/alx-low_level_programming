@@ -6,7 +6,6 @@
  * @n : pointer to int parameters
  * Return: no
  */
-
 void reverse_array(int *a, int n)
 {
 	int c;
