@@ -2,26 +2,26 @@
 
 /**
  * _strcat - concatenates two strings,
- * @dest: destination of the concatenation.
+ * @dest: destination.
  * @src: source.
- * Return: the pointer to destination.
+ * Return: the pointer to dest.
  */
 char *_strcat(char *dest, char *src)
 {
-	int a = 0, b = 0;
+	int count = 0, count2 = 0;
 
-	while (*(dest + a) != '\0')
+	while (*(dest + count) != '\0')
 	{
-		a++;
+		count++;
 	}
 
-	while (b >= 0)
+	while (count2 >= 0)
 	{
-		*(dest + a) = *(src + b);
-		if (*(src + b) == '\0')
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
 			break;
-		a++;
-		b++;
+		count++;
+		count2++;
 	}
 	return (dest);
 }
