@@ -6,16 +6,9 @@
 *
 */
 
-int int main(int argc, char  *argv[]) {
-  in count;
+int main(int argc, char  *argv[]) {
 
-  inf (argc > 1)
-
-  for (acount = 1; count < argc; count++);
-
-{
-  printf("%d\n", count);
-}
+  printf("%d\n", argc);
 
   return 0;
 }
