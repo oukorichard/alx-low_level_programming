@@ -1,1 +1,1 @@
-this directory contans problems related to Dynamic memory allocation
+this directory contains problems related to Dynamic memory allocation
