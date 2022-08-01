@@ -1,13 +1,14 @@
 #include <stdio.h>
-#define MSG "Hello, Richard"
 
 /**
- * main - prints a message.
- *
- * Return: Always 0.
- */
+*main - prints the name of
+*the file it was compiled from
+*
+*Return: nothing to be returned
+*/
+
 int main(void)
 {
-	printf("%s\n", MSG);
-	return (0);
+printf("%s\n", __FILE__);
+return (0);
 }
