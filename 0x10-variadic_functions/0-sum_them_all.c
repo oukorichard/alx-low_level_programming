@@ -1,18 +1,15 @@
 #include "variadic_functions.h"
 /*
 *sum_them_all- returns the sum of two values.
-* n- the number of arguments. 
-* @return- sum of its parameters.
+*@n- the number of arguments. 
+*@return- sum of its parameters.
 */
 int sum_them_all(const unsigned int n, ...);
 {
 	va_list valist;
 	unsigned int p;
 	int sum = 0;
-
-	if (n == 0)
-		return (0);
-
+    
 	va_start(valist, n);
 
 	for (p = 0; p < n; p++)
