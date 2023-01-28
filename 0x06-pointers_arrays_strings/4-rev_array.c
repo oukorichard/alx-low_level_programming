@@ -1,11 +1,12 @@
 #include "main.h"
-
 /**
- * reverse_array - reverses an array of intergers
- * @a : pointer to int parameters
- * @n : pointer to int parameters
- * Return: no
+ * reverse_array - reverses the content of an array
+ * of integers.
+ * @a: array.
+ * @n: number of elements of the array.
+ * Return: no return.
  */
+
 void reverse_array(int *a, int n)
 {
 	int i, j, temp;
